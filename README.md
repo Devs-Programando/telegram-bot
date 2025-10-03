@@ -1,14 +1,14 @@
-# Telegram Bot em Lua
+# Bot de Telegram Comunitário
 
-Bot para Telegram desenvolvido colaborativamente pela comunidade **Devs Programando** com o objetivo de aprender e compartilhar conhecimento através do desenvolvimento prático.
+Bot para Telegram desenvolvido colaborativamente pela comunidade **Devs Programando** com o objetivo de aprender e compartilhar conhecimento através do desenvolvimento prático e colaborativo.
 
 ## Sobre o Projeto
 
-Este repositório tem como propósito criar um bot para Telegram usando a linguagem **Lua**, onde a comunidade pode contribuir, aprender e compartilhar conhecimento de forma colaborativa. É um projeto educativo que visa o aprendizado coletivo e a troca de experiências entre desenvolvedores.
+Este repositório tem como propósito criar um bot para Telegram, no momento, Python. A comunidade pode contribuir, aprender e compartilhar conhecimento de forma colaborativa. É um projeto educativo que visa o aprendizado coletivo e a troca de experiências entre desenvolvedores.
 
 ## Objetivos
 
-- **Educativo**: Aprender Lua através de um projeto prático
+- **Educativo**: Aprender Python, Docker, Style Guide e Git através de um projeto prático
 - **Colaborativo**: Desenvolver em comunidade
 - **Compartilhamento**: Trocar conhecimentos e experiências
 - **Prático**: Criar algo funcional e útil
@@ -20,15 +20,15 @@ Este repositório tem como propósito criar um bot para Telegram usando a lingua
 
 ## Tecnologias
 
-- **Linguagem**: Lua
+- **Linguagem**: Python
 - **API**: Telegram Bot API
 - **Bibliotecas**: Null
 
 ## Instalação e Configuração
 
-### Pré-requisitos
+### Pré-requisitos para o Deploy
 
-- Lua 5.1+ instalado
+- 
 - Token do bot do Telegram (obtido via @BotFather)
 
 ### Como executar
@@ -37,8 +37,11 @@ Este repositório tem como propósito criar um bot para Telegram usando a lingua
 # Clone o repositório
 git clone https://github.com/Devs-Programando/telegram-bot.git
 cd telegram-bot
-
+uv sync 
+uv run python src/main.py
 ```
+
+OU utilize a Dockerfile e builde você mesmo! Pesquise a doc e aprenda no processo. Docker é uma ferramenta muito importante!
 
 ## Como Contribuir
 
